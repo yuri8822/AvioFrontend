@@ -1,0 +1,80 @@
+.container {
+    width: 70%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.container h3 {
+    text-align: center;
+}
+
+.container p {
+    margin-bottom: 10px;
+}
+
+.container a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.container hr {
+    margin: 15px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+.container button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* FinalBooking.css */
+
+.review-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    z-index: 1000;
+}
+
+.review-popup button.close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color:black;
+}
+
+.review-popup label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.review-popup textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.review-popup input[type='number'] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.review-popup button {
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
